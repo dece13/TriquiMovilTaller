@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Triqui</string>
+    <string name="wonX">Jugador X ganó</string>
+    <string name="wonY">Jugador O ganó</string>
+    <string name="juego">TIC TAC TOE!</string>
+    <string name="turX">Turno jugador X</string>
+    <string name="Saludo">Random Greet</string>
+    <string name="Pais">Countries</string>
 </resources>

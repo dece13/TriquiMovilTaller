@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:textSize="60sp"
         android:layout_gravity="center"
-        android:text="TIC TAC TOE!" />
+        android:text="@string/juego" />
     <TextView
         android:id="@+id/Indicativo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:layout_gravity="center"
-        android:text="Turno juagador X"
+        android:text="@string/turX"
         android:layout_margin="20dp"/>
 
     <LinearLayout
@@ -127,5 +127,16 @@
             android:textSize="60sp"
             android:text="-" />
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/Repetir"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#2E4227"
+        android:contentDescription="Oprimir para repetir juego"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
 
 </LinearLayout>
