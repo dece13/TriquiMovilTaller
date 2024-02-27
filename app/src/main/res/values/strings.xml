@@ -6,4 +6,13 @@
     <string name="turX">Turno jugador X</string>
     <string name="Saludo">Random Greet</string>
     <string name="Pais">Countries</string>
+    <string-array name="Lenguajes">
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Italiano</item>
+        <item>Aleman</item>
+        <item>Mandarin</item>
+        <item>Frances</item>
+        <item>Portugues</item>
+    </string-array>
 </resources>

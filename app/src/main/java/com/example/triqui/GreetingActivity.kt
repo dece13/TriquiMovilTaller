@@ -2,17 +2,15 @@ package com.example.triqui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
+import com.example.triqui.databinding.ActivityGreetingBinding
 import com.example.triqui.databinding.ActivityHomeBinding
-import com.example.triqui.databinding.ActivityMainBinding
 
-class HomeActivity : AppCompatActivity() {
+class GreetingActivity : AppCompatActivity() {
 
-    private lateinit var binding:ActivityHomeBinding
+    private lateinit var binding: ActivityGreetingBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= ActivityHomeBinding.inflate(layoutInflater)
+        binding= ActivityGreetingBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
     }
 }

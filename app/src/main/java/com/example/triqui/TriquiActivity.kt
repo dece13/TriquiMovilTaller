@@ -3,12 +3,9 @@ package com.example.triqui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.view.View.VISIBLE
-import androidx.core.view.isInvisible
-import androidx.core.view.isVisible
 import com.example.triqui.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class TriquiActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private  var jugadorUno: Boolean=true
     private var enJuego: Boolean=true
