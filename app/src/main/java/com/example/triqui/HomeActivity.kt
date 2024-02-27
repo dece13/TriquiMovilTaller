@@ -28,5 +28,10 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.PaisInf.setOnClickListener {
+            var intent = Intent(baseContext, PaisesActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

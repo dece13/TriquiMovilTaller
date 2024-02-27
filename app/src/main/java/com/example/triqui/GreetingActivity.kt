@@ -27,12 +27,12 @@ class GreetingActivity : AppCompatActivity() {
             "Portugues" -> "Olá"
             else -> "Saludo no especificado"
         }
-        if(idiomaSeleccionado.equals("Ingles")){
-            saludo="Hello"
-        }
+
         binding.SaludoText.text = saludo
+
         binding.goBackButton.setOnClickListener {
             finish()  // Cerrar la actividad actual y volver a la actividad anterior
         }
+
     }
 }
