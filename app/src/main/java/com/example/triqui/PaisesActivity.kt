@@ -31,6 +31,9 @@ class PaisesActivity : AppCompatActivity() {
             intent.putExtra("selectedCountry", selectedCountry)
             startActivity(intent)
         }
+        binding.Regreso.setOnClickListener {
+            finish()  // Cerrar la actividad actual y volver a la actividad anterior
+        }
     }
 
     fun loadCountries() {

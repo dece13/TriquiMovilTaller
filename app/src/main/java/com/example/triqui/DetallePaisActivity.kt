@@ -20,6 +20,7 @@ class DetallePaisActivity : AppCompatActivity() {
                 binding.CapitalPais.text=country.capital
                 binding.NombrePais.text=country.name
                 binding.NomInternacional.text=country.nomInt
+                binding.Abrev.text=country.abreviacion
             }
         }
 
@@ -42,6 +43,9 @@ class DetallePaisActivity : AppCompatActivity() {
             // Crear el objeto país y agregarlo al arreglo
             val country = PaisesActivity.Country(name, capital, nomInter, abrev)
             countries.add(country)
+        }
+        binding.goBack.setOnClickListener {
+            finish()  // Cerrar la actividad actual y volver a la actividad anterior
         }
     }
 }
