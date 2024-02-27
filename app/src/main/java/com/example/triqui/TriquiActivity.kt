@@ -20,7 +20,9 @@ class TriquiActivity : AppCompatActivity() {
         }
         SeleccionarCasilla()
         Repetir()
-
+        binding.goBackButton.setOnClickListener {
+            finish()  // Cerrar la actividad actual y volver a la actividad anterior
+        }
 
 
 

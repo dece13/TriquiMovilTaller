@@ -4,20 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foregroundTint="#AA5050"
     tools:context=".GreetingActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="401dp"
         android:layout_height="564dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:contentDescription="Imagen relleno"
+        android:foregroundTint="#973A3A"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
         android:id="@+id/SaludoText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="40sp"
         android:gravity="center"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+
 </FrameLayout>

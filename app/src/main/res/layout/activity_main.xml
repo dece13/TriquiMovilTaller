@@ -139,4 +139,11 @@
         android:contentDescription="Oprimir para repetir juego"
         app:srcCompat="@android:drawable/ic_popup_sync" />
 
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="125dp"
+        android:layout_height="77dp"
+        android:background="@color/white"
+        android:text="Regresar" />
+
 </LinearLayout>
